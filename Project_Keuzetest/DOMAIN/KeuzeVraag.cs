@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DOMAIN
 {
-    public class Class1
+    public class KeuzeVraag : Vraag
     {
+        public virtual Thema thema { get; set; }
+        public string Criteria { get; set; }
     }
 }
