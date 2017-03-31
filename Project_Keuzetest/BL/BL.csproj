@@ -49,9 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Manager\AdminManager.cs" />
+    <Compile Include="Manager\DeelnameManager.cs" />
+    <Compile Include="IManager\IAdminManager.cs" />
+    <Compile Include="IManager\IDeelnameManager.cs" />
+    <Compile Include="IManager\IVraagManager.cs" />
     <Compile Include="UnitOfWorkManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VraagManager.cs" />
+    <Compile Include="Manager\VraagManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

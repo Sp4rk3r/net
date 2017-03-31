@@ -50,6 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EF\KeuzetestDbContext.cs" />
+    <Compile Include="Repo\AdminRepository.cs" />
+    <Compile Include="Repo\DeelnameRepository.cs" />
+    <Compile Include="IRepo\IAdminRepository.cs" />
+    <Compile Include="IRepo\IDeelnameRepository.cs" />
+    <Compile Include="IRepo\IVraagRepository.cs" />
+    <Compile Include="Repo\VraagRepository.cs" />
     <Compile Include="UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
