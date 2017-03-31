@@ -13,8 +13,10 @@ namespace DAL.Repo
         void createVraag(KeuzeVraag keuzevraag);
         void createAntwoordopties(KeuzeVraag keuzevraag, IEnumerable<AntwoordOptie> antwoordopties);
         void createResultaten(AntwoordOptie antwoordoptie, IEnumerable<Resultaat> resultaten);
+        void updateWachtwoord(string wachtwoord);
 
         //SUPERADMIN
-        void createAdmin(string mail);
+        void createAdmin(string mail, string wachtwoord);
+        int readAdmin(string mail, string wachtwoord);
     }
 }
