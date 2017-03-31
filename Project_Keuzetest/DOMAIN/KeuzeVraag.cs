@@ -10,6 +10,5 @@ namespace DOMAIN
     {
         public virtual Thema thema { get; set; }
         public string Criteria { get; set; }
-        public virtual ICollection<AntwoordOptie> Antwoordopties { get; set; }
     }
 }

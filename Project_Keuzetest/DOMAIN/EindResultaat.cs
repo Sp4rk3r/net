@@ -13,6 +13,5 @@ namespace DOMAIN
         public string getoondeVraag { get; set; }
         public string gekozenAntwoordOptie { get; set; }
         public string verkregenResultaat { get; set; }
-        public Deelname Deelname { get; set; }
     }
 }
