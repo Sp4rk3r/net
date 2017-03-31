@@ -11,6 +11,7 @@ namespace DOMAIN
         public int sessionId { get; set; }
         public int Score { get; set; }
         public virtual ICollection<EindResultaat> EindResultaten { get; set; }
+        public ICollection<Resultaat> Resultaten { get; set; }
         public string Persona { get; set; }
     }
 }

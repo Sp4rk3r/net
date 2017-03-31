@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DOMAIN
+namespace DOMAIN.Partij
 {
-    public class PersonaVraag : Vraag
+    class Partij
     {
+        public String Naam { get; set; }
+        public String MailAdres { get; set; }
     }
 }
