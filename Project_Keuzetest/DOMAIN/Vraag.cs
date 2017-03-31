@@ -10,6 +10,5 @@ namespace DOMAIN
     {
         public string vraagTekst { get; set; }
         public int Niveau { get; set; }
-        public virtual ICollection<AntwoordOptie> Antwoordopties { get; set; }
     }
 }

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DOMAIN
 {
-    public class PersonaVraag : Vraag
+    public enum AdminType: byte
     {
-        public String Opties { get; set; }
+        GewoneAdmin = 1,
+        SuperAdmin
     }
 }

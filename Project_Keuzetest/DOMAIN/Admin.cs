@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DOMAIN
 {
-    public class PersonaVraag : Vraag
+    public class Admin
     {
-        public String Opties { get; set; }
+        public String MailAdres { get; set; }
+        public AdminType AdminType { get; set; }
     }
 }
